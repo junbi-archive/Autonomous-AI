@@ -1,0 +1,8 @@
+{
+  "assets": [
+    {"name": "srv-public-web", "grade": "O", "description": "대국민 홈페이지 웹서버"},
+    {"name": "srv-civil-svc", "grade": "S", "description": "민원 행정서비스 서버"},
+    {"name": "db-classified-01", "grade": "C", "description": "기밀 업무 데이터베이스"},
+    {"name": "pc-admin-07", "grade": "S", "description": "관리자 업무용 PC"}
+  ]
+}

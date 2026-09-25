@@ -1,0 +1,19 @@
+{
+  "version": "AGENCY-LOCAL-2026.1",
+  "description": "기관이 대응 속도를 이유로 임의 완화한 정책 (책임귀속 시연용 위반 사례)",
+  "action_base_tier": {
+    "ALERT": 1,
+    "COLLECT_FORENSICS": 1,
+    "BLOCK_IP": 1,
+    "QUARANTINE_FILE": 1,
+    "DISABLE_ACCOUNT": 1,
+    "ISOLATE_HOST": 1,
+    "DELETE_ASSET": 1,
+    "BLOCK_EXTERNAL_SERVICE": 1
+  },
+  "asset_grade_tier": {"C": 1, "S": 1, "O": 1},
+  "high_risk_actions": [],
+  "low_confidence_escalation": 0.0,
+  "escalate_on_high_flags": false,
+  "post_review_sla_hours": 24
+}

@@ -1,0 +1,19 @@
+{
+  "version": "XAL-STD-2026.1",
+  "description": "표준 위험도 정책 (고시안 제7·8조)",
+  "action_base_tier": {
+    "ALERT": 1,
+    "COLLECT_FORENSICS": 1,
+    "BLOCK_IP": 1,
+    "QUARANTINE_FILE": 2,
+    "DISABLE_ACCOUNT": 2,
+    "ISOLATE_HOST": 3,
+    "DELETE_ASSET": 3,
+    "BLOCK_EXTERNAL_SERVICE": 3
+  },
+  "asset_grade_tier": {"C": 3, "S": 2, "O": 1},
+  "high_risk_actions": ["DELETE_ASSET", "ISOLATE_HOST", "BLOCK_EXTERNAL_SERVICE"],
+  "low_confidence_escalation": 0.7,
+  "escalate_on_high_flags": true,
+  "post_review_sla_hours": 24
+}
